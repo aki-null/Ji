@@ -63,7 +63,7 @@ open class JiNode {
 	/// The Ji document contians this node.
 	unowned let document: Ji
 	/// Node type.
-	let type: JiNodeType
+	public let type: JiNodeType
 	
 	/// A helper flag to get whether keepTextNode has been changed.
 	fileprivate var _keepTextNodePrevious = false
